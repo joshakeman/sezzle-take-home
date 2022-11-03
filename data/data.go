@@ -22,9 +22,8 @@ func (o DataTypeEnum) IsValid() bool {
 
 const (
 	// Errors
-	ERR_INVALID_DATA_KEY     = "invalid data key"
-	ERR_UNEXPECTED           = "unexpected error"
-	ERR_DATA_MOVER_NOT_FOUND = "Data mover not found"
+	ERR_INVALID_DATA_KEY = "invalid data key"
+	ERR_UNEXPECTED       = "unexpected error"
 
 	// Data results
 	S3_DATA_RESULT    = "s3 data"
